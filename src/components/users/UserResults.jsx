@@ -21,7 +21,7 @@ function UserResults() {
     }
   if (!loading){
       return <div className='grid grid-cols-1 gap-8 xl:grid-cols-4 lg:grid-cols03 md:grid-cols-2'>
-          {users.map((user,index) =>
+          {users.map((user) =>
             <UserItem key={user.id} user={user}/>
             )}
       </div>;
